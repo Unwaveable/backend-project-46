@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import genDiff from "./src/genDiff-logic.js";
+import genDiff from "./src/cli.js";
 
-genDiff('hello');
+console.log(genDiff());
